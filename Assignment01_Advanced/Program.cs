@@ -4,7 +4,51 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region 1.Bubble Sort Algorithm
+
+            //int[] nums = { 2, 6, 5, 22, 15, 1, 10 };
+
+            //Console.Write("Arry Befor Sortting: ");
+            //PrintArray(nums);
+            //Console.WriteLine("\n----------------------------------------------------");
+            //Console.Write("Array After Bubble Sort: ");
+            //BubSort(nums);
+            //PrintArray(nums); 
+
+            #endregion
         }
+
+        #region 1.Bubble Sort Algorithm
+        //public static void PrintArray(int[] array)
+        //{
+        //    foreach (int i in array) { Console.Write(i + " "); }
+        //}
+
+        //public static void BubSort(int[] nums)
+        //{
+        //    bool flag;
+
+        //    for (int i = 0; i < nums.Length -1; i++)
+        //    {
+        //        flag = false;
+        //        for (int j = 0; j < nums.Length -1; j++)
+        //        {
+        //            if (nums[j] > nums[j+1])
+        //            {
+        //                int temp = nums[j];
+        //                nums[j] = nums[j+1];
+        //                nums[j+1] = temp;
+        //                flag = true;
+        //            }
+        //        }
+        //        if (!flag)
+        //        {
+        //            break;
+        //        }
+        //    }
+
+        //} 
+        #endregion
+
     }
 }
