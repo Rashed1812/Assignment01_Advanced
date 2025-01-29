@@ -1,4 +1,6 @@
-﻿namespace Assignment01_Advanced
+﻿using System.Threading.Channels;
+
+namespace Assignment01_Advanced
 {
     internal class Program
     {
@@ -16,6 +18,18 @@
             //PrintArray(nums); 
 
             #endregion
+
+            #region 2.Range
+
+            //Range<int> range = new Range<int>(10, 20);
+
+            //Console.Write($"Check Number Is In Range: {range.IsInRange(15)}");
+            //Console.WriteLine($"\nThe Length Between Max And Min Is: {range.Length}"); 
+
+            #endregion
+
+
+
         }
 
         #region 1.Bubble Sort Algorithm
@@ -49,6 +63,8 @@
 
         //} 
         #endregion
+
+       
 
     }
 }
